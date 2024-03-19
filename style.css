@@ -1,0 +1,77 @@
+body{
+    background-color: #333333;
+    color: #FFEEC8;
+    border: 1px solid;
+    border-radius: 100px;
+}
+
+#topnav{
+    display: flex;
+    gap: 950px;
+    
+}
+
+#avella{
+    font-size: 35px;
+    margin-left: 100px;
+}
+
+#home{
+display: flex;
+justify-content: center;
+gap: 20px;
+font-size: 22px;
+margin-right: 100px;
+}
+
+#livingroom{
+    display: flex;
+    justify-content: space-between;
+}
+
+#custom{
+font-size: 70px;
+margin-left: 100px;   
+}
+
+#production{
+font-size: 20px;
+margin-left: 100px;
+}
+
+#order{
+    margin-left: 100px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+#exclusive{
+    display: flex;
+    gap: 700px;
+}
+
+
+#image{
+    margin-right: 100px; 
+}
+
+#life{
+    font-size: 60px;
+}
+
+#ideas{
+    margin-right: 300px;
+    font-size: 20px;
+}
+
+#fixed{
+    display: flex;
+    justify-content: center;
+}
+
+#materials{
+    margin-left: 100px; 
+}
+
+
+
