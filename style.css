@@ -170,6 +170,10 @@ gap: 500px;
     text-align: center; 
 }
 
+#greysit{
+    border-radius: 15px;
+}
+
 #feedback{
     display: flex;
     text-align: center;
@@ -183,6 +187,11 @@ gap: 500px;
     margin-left: 27%;
 }
 
+#bed{
+    border-radius: 15px;
+}
+
+
 #contactus{
     font-size: 50px;
 }
@@ -190,6 +199,15 @@ gap: 500px;
 #info{
     display: flex;
     gap: 400px;
+}
+
+#whitesit{
+    border-radius: 15px; 
+}
+
+
+#mirror{
+    border-radius: 15px;
 }
 
 #down{
@@ -200,12 +218,29 @@ gap: 500px;
     font-size: 20px;
 }
 
+#sits{
+    border-radius: 15px; 
+}
+
 #phone{
     padding: 12px;
     border: #FFEEC8;
     background-color: #505050;
     border-radius: 5px;
 }
+
+#concrete{
+    border-radius: 20px;
+}
+
+#glass{
+    border-radius: 15px;
+}
+
+#waters{
+    border-radius: 15px;
+}
+
 .input{
     background-color: #505050;
     color: #999999;
@@ -217,4 +252,55 @@ gap: 500px;
 #pendant{
 margin-left: 100px;
 border-radius: 15px;
+}
+
+#corridor{
+    border-radius: 15px; 
+}
+
+#av{
+    font-size: 35px;
+    margin-left: 100px;
+}  
+
+
+#end{
+    display: flex;
+    font-size: 22px;
+    gap: 650px;
+
+}
+
+#right{
+    margin-left: 100px; 
+display: flex;
+gap: 30px;
+}
+
+#number{
+    font-size: 30px;
+    margin-right: 70px;
+}
+#foooter{
+    display: flex;
+    gap: 1300px;
+}
+#furniture{
+    margin-top: 20px;
+}
+
+#co{
+    font-size: 22px; 
+    margin-left: 100px;
+
+}
+
+#icons{
+    margin-left: 100px;
+    display: flex;
+}
+
+#done{
+    display: flex;
+    gap: 1150px;
 }
