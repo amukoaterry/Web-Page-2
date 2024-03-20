@@ -2,12 +2,15 @@ body{
     background-color: #333333;
     color: #FFEEC8;
     border: 1px solid;
-    border-radius: 100px;
+    border-radius: 20px;
 }
 
 #topnav{
     display: flex;
     gap: 950px;
+    background-color: #505050;
+    border-radius: 15px;
+    /* padding: 1px; */
     
 }
 
