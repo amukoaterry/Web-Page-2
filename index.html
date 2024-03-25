@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Home Website</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js" integrity="sha512-GWzVrcGlo0TxTRvz9ttioyYJ+Wwk9Ck0G81D+eO63BaqHaJ3YZX9wuqjwgfcV/MrB2PhaVX9DkYVhbFpStnqpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 <body>
+    
         <div id="topnav">
 
             <div id="avella">
@@ -139,12 +141,14 @@
 
                  <div> 
                     <img src="Images/greysit.jpeg" alt="greysit" height="250px" id="greysit">
-        
-
+                   <button onclick="changeColor()"> <img src="Images/like.png" alt="like-feature" class="like"></button>
+                   <i   onclick="myFunction(this)" class="fa-solid fa-thumbs-up"></i>
                 </div>
 
                  <div> 
                     <img src="Images/6by6bed.jpeg" alt="bed" height="250px" id="bed"> 
+                    <button onclick="changeColor()"> <img src="Images/like.png" alt="like-feature" class="like"></button>
+                    <i   onclick="myFunction(this)" class="fa-solid fa-thumbs-up"></i>
                 </div>
 
             </div>
@@ -156,14 +160,20 @@
 
                  <div>
                     <img src="Images/whitesit.jpeg" alt="whitesit" height="300px" id="whitesit">
+                    <button onclick="changeColor()"> <img src="Images/like.png" alt="like-feature" class="like"></button>
+                    <i   onclick="myFunction(this)" class="fa-solid fa-thumbs-up"></i>
                  </div>
 
                  <div>
                     <img src="Images/designedmirror.jpeg" alt="mirror" height="300px" id="mirror">
+                    <button onclick="changeColor()"> <img src="Images/like.png" alt="like-feature" class="like"></button>
+                    <i   onclick="myFunction(this)" class="fa-solid fa-thumbs-up"></i>
                  </div>
                  
                  <div>
                     <img src="Images/twosits.jpeg" alt="threesits" height="300px" id="sits">
+                    <button onclick="changeColor()"> <img src="Images/like.png" alt="like-feature" class="like"></button>
+                    <i   onclick="myFunction(this)" class="fa-solid fa-thumbs-up"></i>
                  </div>
 
             </div>
@@ -177,7 +187,7 @@
             <div id="how">
                 
                  <div id="lights">
-                   <marquee><img src="Images/corridorld.jpg" alt="ledlight" id="corridor"/></marquee>
+                <img src="Images/corridorld.jpg" alt="ledlight" id="corridor"/>
                  </div>
 
 
@@ -272,8 +282,10 @@
 
        <div id="info">
 
-            <div>
+            <div> 
+    
                 <img src="Images/bed-pendant_lights.jpg" alt="bed-pendant_lights" id="pendant">
+        
             </div>
 
             <div id="down">
@@ -394,15 +406,20 @@
       </div>
 
  </div>
+ <script>
+    function myFunction(x){
+        x.classList.toggle("fa-thumbs-down");
+    }
+ </script>
 
     
+<script src="path/to/script.js">
+    const feature  =document.querySelector(".like");
 
-
-
-
-    
-    
-   
+    function changeColor(){
+        like.style.color = "red";
+    }
+</script>
 
 </body>
 </html>
