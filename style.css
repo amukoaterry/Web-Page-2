@@ -76,6 +76,7 @@ margin-left: 100px;
 #fixed{
     display: flex;
     justify-content: center;
+    gap: 25px;
 }
 
 #materials{
@@ -88,20 +89,23 @@ margin-left: 100px;
 
 }
 
+#epoxies{
+    margin-top: 80px;
+}
 
 #wood{
-    margin-top: 100px;
+    margin-top: 83px;
 }
 #stone{
-     margin-top: 50px;
+     margin-top: 80px;
 }
 
 #metal{
-    margin-top: 35px;
+    margin-top: 80px;
 }
 
 #glass{
-    margin-top: 50px;  
+    margin-top: 80px;  
 }
 #concrete{
     margin-top: 80px;
@@ -322,10 +326,6 @@ button{
     user-select: none;
 }
 
-.fa:hover{
-    color: red;
-
-}
 
 #downs{
     display: flex;
@@ -345,4 +345,9 @@ button{
 #mark{
     direction: left;
 
+}
+
+.height{
+    height: 250px;
+    width: 200px;
 }
